@@ -69,6 +69,7 @@ nav button {
 }
 .navbar button {
     outline: none;
+    cursor: pointer
 }
 
 .navbar .language a {
