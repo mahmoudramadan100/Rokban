@@ -987,9 +987,44 @@ a.navbar-brand {
         border-radius: 7px;
     }
     .services .box {
-        margin: 20px auto 10px;
-        width: 215px;
+        margin: 20px 4px 10px;
+        width: auto;
     }
+    .services .box .img img {
+        width: 50px;
+        height: 50px;
+        padding: 0 auto;
+        position: absolute;
+        left: 22%;
+        bottom: 25%;
+    }
+.services .box .img {
+    width: 90px;
+    height: 92px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #61b746;
+    position: relative;
+}
+.services .box .title h3 {
+    color: #61b746;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.4s all;
+    font-size: 15px;
+}
+.services .box .title p {
+    color: #61b746;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.4s all;
+}
+.services .box-r {
+    margin: 20px auto 10px !important;
+    width: 215px !important;
+}
     .about {
         padding: 10px 0 0;
     }
@@ -1185,6 +1220,45 @@ a.navbar-brand {
         background-color: #61B746;
         border-radius: 7px;
     }
+    .services .box {
+        margin: 20px 4px 10px;
+        width: auto;
+    }
+    .services .box .img img {
+        width: 50px;
+        height: 50px;
+        padding: 0 auto;
+        position: absolute;
+        left: 22%;
+        bottom: 25%;
+    }
+.services .box .img {
+    width: 90px;
+    height: 92px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #61b746;
+    position: relative;
+}
+.services .box .title h3 {
+    color: #61b746;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.4s all;
+    font-size: 15px;
+}
+.services .box .title p {
+    color: #61b746;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.4s all;
+}
+.services .box-r {
+    margin: 20px auto 10px !important;
+    width: 215px !important;
+}
     .about .text h1 {
         font-family: 'Tajawal', sans-serif;
         font-size: 40px;
@@ -1428,8 +1502,44 @@ a.navbar-brand {
         border-radius: 7px;
     }
     .services .box {
-        margin: 20px auto 10px;
+        margin: 20px 4px 10px;
+        width: auto;
     }
+    .services .box .img img {
+        width: 50px;
+        height: 50px;
+        padding: 0 auto;
+        position: absolute;
+        left: 22%;
+        bottom: 25%;
+    }
+.services .box .img {
+    width: 90px;
+    height: 92px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #61b746;
+    position: relative;
+}
+.services .box .title h3 {
+    color: #61b746;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.4s all;
+    font-size: 15px;
+}
+.services .box .title p {
+    color: #61b746;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.4s all;
+}
+.services .box-r {
+    margin: 20px auto 10px !important;
+    width: 215px !important;
+}
     .about {
         padding: 10px 0 0;
     }
