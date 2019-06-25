@@ -54,6 +54,9 @@ nav {
     position: relative;
     z-index: 999;
 }
+/* .navbar-expand-lg .navbar-nav {
+    direction: rtl;
+} */
 
 nav button {
     outline: none
@@ -375,8 +378,9 @@ a.navbar-brand {
 /* start About */
 .about {
     padding: 40px 0;
-    background-color: #F8D87A;
-    overflow: hidden
+    /* background-color: #F8D87A; */
+    overflow: hidden;
+    color:#cea83b;
 }
 
 .about .text {
@@ -603,17 +607,16 @@ a.navbar-brand {
 .footer .text li a:hover {
     color: #61B746;
 }
-.footer .text li a img {
-    width: 40px;
-    height: 40px;
+.footer .text li a i {
+    font-size: 22px;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
-    margin-right: 10px
+    margin-right:7px
 }
-.footer .text li a:hover img {
+.footer .text li a:hover i {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -1136,6 +1139,11 @@ a.navbar-brand {
         padding: 0px 0;
         text-align: right;
     }
+    .footer .first {order:2}
+
+    .footer .second {order:1}
+
+    .footer .third {order:3}
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
@@ -1395,6 +1403,11 @@ a.navbar-brand {
         padding: 0px 0;
         text-align: right;
     }
+    .footer .first {order:2}
+
+    .footer .second {order:1}
+
+    .footer .third {order:3}
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
@@ -1653,4 +1666,10 @@ a.navbar-brand {
         text-align: right;
 
     }
+    .footer .first {order:2}
+
+    .footer .second {order:1}
+
+    .footer .third {order:3}
+
 }
