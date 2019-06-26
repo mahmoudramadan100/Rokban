@@ -666,6 +666,11 @@ a.navbar-brand {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%
+    }
     .navbar .navbar-brand img {
         width: 85px;
         height: 65px;
@@ -890,6 +895,11 @@ a.navbar-brand {
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%
+    }
     .navbar .navbar-brand img {
         width: 80px;
         height: 40px;
@@ -1151,6 +1161,11 @@ a.navbar-brand {
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%
+    }
     .navbar .navbar-brand img {
         width: 80px;
         height: 40px;
@@ -1415,6 +1430,11 @@ a.navbar-brand {
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%
+    }
     
     .navbar .navbar-brand img {
         width: 80px;
