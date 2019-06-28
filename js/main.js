@@ -1,25 +1,14 @@
 $(document).ready(function () {
 
-    // $(".navbar-light .navbar-nav .nav-link").mouseenter(function(){
-    //     $(".navbar-light .navbar-nav .nav-item .active").css({
-    //         "color":"#61b746",
-    //         "border-bottom":"2px solid #61b746",
-    //         "transition": "all 0.4s"
-    //     })
-    // });
-
-
-    // $('.home').on('mouseenter', function() {
-    //     $(".box-img").addClass('.zoom-in');
-    //     $(".box-img").removeClass('.box-1');
-    //   });
-      
-    //   // and stop when not hovering
-    //   $('.home').on('mouseleave', function() {
-    //     $(".box-img").addClass('.normal-zoom');
-    //     $(".box-img").removeClass('.box-2');
-    //   });
-
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 300) {
+          $("nav").css("background" , "rgba(255, 255, 255, 0.7)");
+        }
+        else{
+            $("nav").css("background" , "#fff");  	
+        }
+    });
 
 
 
@@ -123,6 +112,6 @@ $(document).ready(function () {
         $(this).next('.details').slideToggle(400);
     });
     
-
+  
 
 });
