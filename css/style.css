@@ -20,15 +20,19 @@ body {
     -o-border-radius: 25px;
 
 }
+
 .shadow {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
 }
+
 .collapse.show {
     display: block;
     background: #fff;
 }
 
-
+.mobile-home {
+    display: none;
+}
 
 .navbar-light .navbar-toggler {
     color: #61B746;
@@ -39,7 +43,6 @@ body {
     color: #61B746;
     border-color: transparent;
 }
-
 
 /* .ml-auto, .mx-auto {
     margin-right: 0;
@@ -54,6 +57,7 @@ nav {
     position: relative;
     z-index: 999;
 }
+
 /* .navbar-expand-lg .navbar-nav {
     direction: rtl;
 } */
@@ -67,6 +71,7 @@ nav button {
     top: 0;
     right: 0;
 }
+
 .navbar button {
     outline: none;
     cursor: pointer
@@ -89,8 +94,10 @@ nav button {
 a.navbar-brand {
     width: 100px;
     height: 54px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
+
 .navbar .navbar-brand img {
     width: 100%;
     height: 54px;
@@ -139,8 +146,9 @@ a.navbar-brand {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-  }
-  .hvr-underline-from-center:before {
+}
+
+.hvr-underline-from-center:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -155,37 +163,45 @@ a.navbar-brand {
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
-  }
+}
+
 .home {
-    background-color: #af66cc;
+    background-color: #62b646;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 85vh;
     overflow: hidden;
 }
+
 .home .box-img {
     width: 400px;
     height: 400px;
     overflow: hidden;
 }
+
 .home .box-img img {
     width: 100%;
     height: 100%;
 }
+
 .box-1 {
     position: absolute;
-    top: 120px;
+    top: 160px;
 }
+
 .box-2 {
     position: absolute;
     top: 25px;
-    width: 320px!important;
-    height: 320px!important;
+    width: 320px !important;
+    height: 320px !important;
 }
 
 .home .text {
@@ -234,16 +250,19 @@ a.navbar-brand {
     top: 50px;
     /* transition: transform 250ms; */
 }
+
 .home .soon-1 {
     position: absolute;
-    top:0;
+    top: 0;
     right: 20px;
 }
+
 .home .soon-1 .img {
     width: 52px;
     height: 79px;
-    overflow:hidden;
+    overflow: hidden;
 }
+
 .home .soon-1 .img img {
     width: 100%;
     height: 100%;
@@ -316,9 +335,11 @@ a.navbar-brand {
     background-color: #61B746;
     border-radius: 7px;
 }
+
 .services .contant {
     padding: 40px 0;
 }
+
 .services .box {
     width: 250px;
     margin: 20px 0 10px;
@@ -333,17 +354,21 @@ a.navbar-brand {
     -ms-transition: 0.4s all;
     -o-transition: 0.4s all;
 }
+
 .services .box:hover {
     box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.05);
     background: #61b746;
 }
+
 .services .box-center {
     margin: 20px auto
 }
+
 .services .box:hover .title h3,
 .services .box:hover .title p {
     color: #fff;
 }
+
 .services .box .img {
     width: 140px;
     height: 140px;
@@ -354,6 +379,7 @@ a.navbar-brand {
     border: 1px solid #61b746;
     position: relative;
 }
+
 .services .box .img img {
     width: 110px;
     height: 110px;
@@ -362,15 +388,18 @@ a.navbar-brand {
     left: 10%;
     bottom: 10%;
 }
+
 .services .box .title {
     padding: 25px 0 15px;
 }
+
 .services .box .title h3 {
     color: #61b746;
     font-weight: bold;
     text-align: center;
     transition: 0.4s all;
 }
+
 .services .box .title p {
     color: #61b746;
     font-weight: bold;
@@ -384,7 +413,7 @@ a.navbar-brand {
     padding: 40px 0;
     /* background-color: #F8D87A; */
     overflow: hidden;
-    background-color:#cea83b;
+    background-color: #74c659;
 }
 
 .about .text {
@@ -438,6 +467,7 @@ a.navbar-brand {
     font-size: 24px;
     font-weight: 400;
 }
+
 .about .img {
     margin: 0 auto;
     width: 100%;
@@ -446,6 +476,7 @@ a.navbar-brand {
     position: relative;
     top: 130px;
 }
+
 .about .img img {
     width: 100%;
     height: 100%;
@@ -457,9 +488,11 @@ a.navbar-brand {
     padding: 20px 0 40px;
     background: #fff
 }
+
 .contact .container {
     width: 60%;
 }
+
 .contact .text {
     text-align: center;
     padding: 10px 0 40px 0;
@@ -491,6 +524,7 @@ a.navbar-brand {
 .contact .input {
     margin: 35px 0;
 }
+
 .contact .input label {
     color: #94a7b3;
     font-size: 18px;
@@ -500,30 +534,35 @@ a.navbar-brand {
     text-align: right;
     margin-bottom: 0;
 }
+
 .contact .input textarea,
 .contact .input input {
-   padding: 10px;
-   margin: 0;
-   width: 100%;
-   border: none;
-   border-bottom: 2px solid #94a7b3;
-   transition: all 0.4s;
-   -webkit-transition: all 0.4s;
-   -moz-transition: all 0.4s;
-   -ms-transition: all 0.4s;
-   -o-transition: all 0.4s;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #94a7b3;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
+
 .contact .input textarea {
     height: 100px;
 }
+
 .contact .input textarea:focus,
 .contact .input input:focus {
     border-bottom: 2px solid #61B746;
     outline: none
 }
+
 .contact .button {
     text-align: center;
 }
+
 .contact .button a {
     text-align: center;
     display: inline-block;
@@ -542,34 +581,40 @@ a.navbar-brand {
     -o-transition: all 0.4s;
     text-decoration: none
 }
+
 .contact .button a:hover {
     background-color: rgb(106, 209, 75);
     border-color: #61B746;
     box-shadow: 0 2px 4px 0 rgba(97, 183, 70, 0.4);
 }
+
 /* End Contact */
 /* Start Footer */
 .footer {
     background: rgb(250, 250, 250);
     text-align: center;
     padding: 40px 0 10px;
-    overflow:hidden;
+    overflow: hidden;
 }
+
 .footer .text {
     padding: 30px 0;
     text-align: right
 }
+
 .footer .text .logo {
     text-align: right;
     width: 100px;
-    height: 55pxx;
+    height: 55px;
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 .footer .text .logo img {
-    width:100%;
-    height:100%
+    width: 100%;
+    height: 100%
 }
+
 .footer .text p {
     font-family: 'Tajawal', sans-serif;
     color: #5b5b5b;
@@ -581,22 +626,27 @@ a.navbar-brand {
     padding: 5px 0;
     width: 90%;
 }
+
 .footer .text .catgray {
     text-align: center
 }
+
 .footer .text ul .social {
-    padding: 6px 0;
+    padding: 9px 0;
     text-align: left
 }
+
 .footer .text ul {
     list-style: none;
     margin: 20px 0;
     padding: 10px 0;
     text-align: right
 }
+
 .footer .text ul li {
     padding: 10px 0;
 }
+
 .footer .text li a {
     font-family: 'Tajawal', sans-serif;
     text-decoration: none;
@@ -608,9 +658,11 @@ a.navbar-brand {
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
 }
+
 .footer .text li a:hover {
     color: #61B746;
 }
+
 .footer .text li a i {
     font-size: 22px;
     transition: all 0.4s;
@@ -618,8 +670,9 @@ a.navbar-brand {
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
-    margin-right:7px
+    margin-right: 7px
 }
+
 .footer .text li a:hover i {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -627,6 +680,7 @@ a.navbar-brand {
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+
 .footer .footer-tail p {
     text-align: center;
     font-family: 'Tajawal', sans-serif;
@@ -637,6 +691,7 @@ a.navbar-brand {
     margin: 0;
     padding: 8px 0 0;
 }
+
 /* End Footer */
 /********************************/
 /***********ABOUT ***************/
@@ -645,20 +700,25 @@ a.navbar-brand {
     text-align: right;
     padding: 20px 0;
 }
+
 .add .text {
     text-align: center;
     padding: 20px 0;
 }
+
 .add .text h2 {
     color: #61B746
 }
+
 .add .text p {
     font-size: 25px;
 }
+
 .add .content {
     text-align: right;
     padding: 20px 0;
 }
+
 .add .content h3 {
     text-align: right;
     padding: 20px 0;
@@ -672,14 +732,16 @@ a.navbar-brand {
         width: 100%;
         padding: 0 0;
         margin: 0;
-        padding: 0px 28px 0 14px!important;
+        padding: 0px 28px 0 14px !important;
     }
+
     .navbar .navbar-brand img {
         width: 85px;
         height: 65px;
     }
+
     .home {
-        background-color: #af66cc;
+        background-color: #62b646;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -693,17 +755,20 @@ a.navbar-brand {
         height: 100%;
         display: auto;
     }
+
     .home .img-2 img {
         width: 100%;
         height: 100%;
         display: block;
     }
+
     .home .bottom {
         position: absolute;
         bottom: 4%;
         text-align: center;
         left: 48%;
-    }   
+    }
+
     .home .text h2 {
         font-family: 'Lemonada', cursive;
         color: #fff;
@@ -711,6 +776,7 @@ a.navbar-brand {
         line-height: 45px;
         font-size: 28px;
     }
+
     .home .text .soon span {
         font-family: 'Lemonada', cursive;
         background: #fff;
@@ -722,11 +788,13 @@ a.navbar-brand {
         font-size: 13px;
         box-shadow: 3px 2px 5px 0px #4c4c4c;
     }
+
     .home .img-2 img {
         width: 100%;
         height: 100%;
         display: block;
     }
+
     .home .box-img {
         width: auto;
         height: auto;
@@ -739,6 +807,7 @@ a.navbar-brand {
         text-align: center;
         padding: 90px 0 10px;
     }
+
     .services .contant {
         padding: 10px 0;
     }
@@ -764,6 +833,7 @@ a.navbar-brand {
         background-color: #61B746;
         border-radius: 7px;
     }
+
     .about .text h1 {
         font-family: 'Tajawal', sans-serif;
         font-size: 40px;
@@ -785,10 +855,12 @@ a.navbar-brand {
         background-color: #fff;
         border-radius: 7px;
     }
+
     .services .box {
         margin: 20px auto 10px;
         width: 215px;
     }
+
     .about {
         padding: 10px 0 0;
     }
@@ -797,6 +869,7 @@ a.navbar-brand {
         text-align: center;
         padding: 10px 0;
     }
+
     .about .text p {
         font-family: 'Tajawal', sans-serif;
         text-align: center;
@@ -806,6 +879,7 @@ a.navbar-brand {
         padding: 15px 0;
         font-weight: 400;
     }
+
     .about .text-1 {
         font-family: 'two';
         margin: 10px 0;
@@ -836,6 +910,7 @@ a.navbar-brand {
     .contact {
         padding: 20px 0 0;
     }
+
     .contact .container {
         width: 80%;
     }
@@ -901,10 +976,12 @@ a.navbar-brand {
         margin: 0;
         padding: 8px 0 0;
     }
+
     .footer .text {
         padding: 0px 0;
         text-align: right;
     }
+
     .footer .text li a {
         font-size: 19px;
     }
@@ -917,8 +994,9 @@ a.navbar-brand {
         width: 100%;
         padding: 0 0;
         margin: 0;
-        padding: 0px 28px 0 14px!important;
+        padding: 0px 28px 0 14px !important;
     }
+
     .navbar .navbar-brand img {
         width: 80px;
         height: 40px;
@@ -928,6 +1006,7 @@ a.navbar-brand {
         text-align: center;
         padding: 75px 0 0 0px;
     }
+
     ul.navbar-nav.ml-auto {
         background: #fff;
         padding: 15px 0;
@@ -937,8 +1016,9 @@ a.navbar-brand {
     a.nav-link {
         display: inline-block;
     }
+
     .home {
-        background-color: #af66cc;
+        background-color: #62b646;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -946,6 +1026,7 @@ a.navbar-brand {
         overflow: hidden;
         top: 65px;
     }
+
     .home .bottom {
         position: absolute;
         bottom: 4%;
@@ -960,6 +1041,7 @@ a.navbar-brand {
         line-height: 45px;
         font-size: 28px;
     }
+
     .home .text .soon span {
         font-family: 'Lemonada', cursive;
         background: #fff;
@@ -971,11 +1053,13 @@ a.navbar-brand {
         font-size: 13px;
         box-shadow: 3px 2px 5px 0px #4c4c4c;
     }
+
     .home .img-2 img {
         width: 100%;
         height: 100%;
         display: none;
     }
+
     .home .box-img {
         width: auto;
         height: auto;
@@ -988,6 +1072,7 @@ a.navbar-brand {
         text-align: center;
         padding: 90px 0 10px;
     }
+
     .services .contant {
         padding: 10px 0;
     }
@@ -1013,6 +1098,7 @@ a.navbar-brand {
         background-color: #61B746;
         border-radius: 7px;
     }
+
     .about .text h1 {
         font-family: 'Tajawal', sans-serif;
         font-size: 40px;
@@ -1034,10 +1120,12 @@ a.navbar-brand {
         background-color: #fff;
         border-radius: 7px;
     }
+
     .services .box {
         margin: 20px 4px 10px;
         width: auto;
     }
+
     .services .box .img img {
         width: 50px;
         height: 50px;
@@ -1046,33 +1134,38 @@ a.navbar-brand {
         left: 22%;
         bottom: 25%;
     }
-.services .box .img {
-    width: 90px;
-    height: 92px;
-    overflow: hidden;
-    margin: 0 auto;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 1px solid #61b746;
-    position: relative;
-}
-.services .box .title h3 {
-    color: #61b746;
-    font-weight: bold;
-    text-align: center;
-    transition: 0.4s all;
-    font-size: 15px;
-}
-.services .box .title p {
-    color: #61b746;
-    font-weight: 400;
-    text-align: center;
-    transition: 0.4s all;
-}
-.services .box-r {
-    margin: 20px auto 10px !important;
-    width: 215px !important;
-}
+
+    .services .box .img {
+        width: 90px;
+        height: 92px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: #ffffff;
+        border: 1px solid #61b746;
+        position: relative;
+    }
+
+    .services .box .title h3 {
+        color: #61b746;
+        font-weight: bold;
+        text-align: center;
+        transition: 0.4s all;
+        font-size: 15px;
+    }
+
+    .services .box .title p {
+        color: #61b746;
+        font-weight: 400;
+        text-align: center;
+        transition: 0.4s all;
+    }
+
+    .services .box-r {
+        margin: 20px auto 10px !important;
+        width: 215px !important;
+    }
+
     .about {
         padding: 10px 0 0;
     }
@@ -1081,6 +1174,7 @@ a.navbar-brand {
         text-align: center;
         padding: 10px 0;
     }
+
     .about .text p {
         font-family: 'Tajawal', sans-serif;
         text-align: center;
@@ -1090,6 +1184,7 @@ a.navbar-brand {
         padding: 15px 0;
         font-weight: 400;
     }
+
     .about .text-1 {
         font-family: 'two';
         margin: 10px 0;
@@ -1120,6 +1215,7 @@ a.navbar-brand {
     .contact {
         padding: 20px 0 0;
     }
+
     .contact .container {
         width: 80%;
     }
@@ -1154,15 +1250,19 @@ a.navbar-brand {
     .contact .button a {
         margin-bottom: 40px;
     }
+
     footer {
         text-align: right
     }
+
     .footer .container {
         width: 70%;
     }
+
     .footer .text .catgray {
         text-align: right;
     }
+
     .footer p {
         font-family: "two";
         color: #fff;
@@ -1170,6 +1270,7 @@ a.navbar-brand {
         font-size: 15px;
         margin-bottom: 0;
     }
+
     .footer .footer-tail p {
         text-align: center;
         font-family: 'Tajawal', sans-serif;
@@ -1180,17 +1281,45 @@ a.navbar-brand {
         margin: 0;
         padding: 8px 0 0;
     }
+
     .footer .text {
         padding: 0px 0;
         text-align: right;
     }
-    .footer .first {order:2}
 
-    .footer .second {order:1}
+    .footer .first {
+        order: 2
+    }
 
-    .footer .third {order:3}
+    .footer .second {
+        order: 1
+    }
+
+    .footer .third {
+        order: 3
+    }
 }
-
+@media (min-width: 320px) and (max-width: 424px) {
+    .home {
+        display: none !important;
+    }
+    .mobile-home {
+        display: block;
+        background: #62b646;
+        position: relative;
+        top: 70px;
+        overflow: hidden;
+    }
+    .mobile-home .img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .mobile-home .img img {
+        width: 100%;
+        height: 100%;
+    }
+}
 @media (min-width: 375px) and (max-width: 424px) {
     .navbar {
         position: fixed;
@@ -1198,8 +1327,9 @@ a.navbar-brand {
         width: 100%;
         padding: 0 0;
         margin: 0;
-        padding: 0px 28px 0 14px!important;
+        padding: 0px 28px 0 14px !important;
     }
+
     .navbar .navbar-brand img {
         width: 80px;
         height: 40px;
@@ -1214,8 +1344,9 @@ a.navbar-brand {
     a.nav-link {
         display: inline-block;
     }
+
     .home {
-        background-color: #af66cc;
+        background-color: #62b646;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -1223,16 +1354,19 @@ a.navbar-brand {
         overflow: hidden;
         top: 65px;
     }
+
     .home .bottom {
         position: absolute;
         bottom: 4%;
         text-align: center;
         left: 44%;
     }
+
     .home .text {
         text-align: center;
         padding: 75px 0 0 0px;
     }
+
     .home .text h2 {
         font-family: 'Lemonada', cursive;
         color: #fff;
@@ -1240,6 +1374,7 @@ a.navbar-brand {
         line-height: 45px;
         font-size: 28px;
     }
+
     .home .text .soon span {
         font-family: 'Lemonada', cursive;
         background: #fff;
@@ -1251,11 +1386,13 @@ a.navbar-brand {
         font-size: 13px;
         box-shadow: 3px 2px 5px 0px #4c4c4c;
     }
+
     .home .img-2 img {
         width: 100%;
         height: 100%;
         display: none;
     }
+
     .home .box-img {
         width: auto;
         height: auto;
@@ -1268,6 +1405,7 @@ a.navbar-brand {
         text-align: center;
         padding: 90px 0 10px;
     }
+
     .services .contant {
         padding: 10px 0;
     }
@@ -1293,10 +1431,12 @@ a.navbar-brand {
         background-color: #61B746;
         border-radius: 7px;
     }
+
     .services .box {
         margin: 20px 6px 10px;
         width: auto;
     }
+
     .services .box .img img {
         width: 50px;
         height: 50px;
@@ -1305,33 +1445,38 @@ a.navbar-brand {
         left: 22%;
         bottom: 25%;
     }
-.services .box .img {
-    width: 90px;
-    height: 92px;
-    overflow: hidden;
-    margin: 0 auto;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 1px solid #61b746;
-    position: relative;
-}
-.services .box .title h3 {
-    color: #61b746;
-    font-weight: bold;
-    text-align: center;
-    transition: 0.4s all;
-    font-size: 15px;
-}
-.services .box .title p {
-    color: #61b746;
-    font-weight: 400;
-    text-align: center;
-    transition: 0.4s all;
-}
-.services .box-r {
-    margin: 20px auto 10px !important;
-    width: 215px !important;
-}
+
+    .services .box .img {
+        width: 90px;
+        height: 92px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: #ffffff;
+        border: 1px solid #61b746;
+        position: relative;
+    }
+
+    .services .box .title h3 {
+        color: #61b746;
+        font-weight: bold;
+        text-align: center;
+        transition: 0.4s all;
+        font-size: 15px;
+    }
+
+    .services .box .title p {
+        color: #61b746;
+        font-weight: 400;
+        text-align: center;
+        transition: 0.4s all;
+    }
+
+    .services .box-r {
+        margin: 20px auto 10px !important;
+        width: 215px !important;
+    }
+
     .about .text h1 {
         font-family: 'Tajawal', sans-serif;
         font-size: 40px;
@@ -1353,9 +1498,11 @@ a.navbar-brand {
         background-color: #fff;
         border-radius: 7px;
     }
+
     .services .box {
         margin: 20px auto 10px;
     }
+
     .about {
         padding: 10px 0 0;
     }
@@ -1364,6 +1511,7 @@ a.navbar-brand {
         text-align: center;
         padding: 10px 0;
     }
+
     .about .text p {
         font-family: 'Tajawal', sans-serif;
         text-align: center;
@@ -1373,6 +1521,7 @@ a.navbar-brand {
         padding: 15px 0;
         font-weight: 400;
     }
+
     .about .text-1 {
         font-family: 'two';
         margin: 10px 0;
@@ -1387,7 +1536,6 @@ a.navbar-brand {
         font-size: 18px;
     }
 
-  
     .about .img {
         margin: 0px auto 20px;
         width: fit-content;
@@ -1404,6 +1552,7 @@ a.navbar-brand {
     .contact {
         padding: 20px 0 0;
     }
+
     .contact .container {
         width: 80%;
     }
@@ -1438,15 +1587,19 @@ a.navbar-brand {
     .contact .button a {
         margin-bottom: 40px;
     }
+
     footer {
         text-align: right
     }
+
     .footer .container {
         width: 80%;
     }
+
     .footer .text .catgray {
         text-align: right;
     }
+
     .footer p {
         font-family: "two";
         color: #fff;
@@ -1454,6 +1607,7 @@ a.navbar-brand {
         font-size: 15px;
         margin-bottom: 0;
     }
+
     .footer .footer-tail p {
         text-align: center;
         font-family: 'Tajawal', sans-serif;
@@ -1464,15 +1618,23 @@ a.navbar-brand {
         margin: 0;
         padding: 8px 0 0;
     }
+
     .footer .text {
         padding: 0px 0;
         text-align: right;
     }
-    .footer .first {order:2}
 
-    .footer .second {order:1}
+    .footer .first {
+        order: 2
+    }
 
-    .footer .third {order:3}
+    .footer .second {
+        order: 1
+    }
+
+    .footer .third {
+        order: 3
+    }
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
@@ -1482,9 +1644,9 @@ a.navbar-brand {
         width: 100%;
         padding: 0 0;
         margin: 0;
-        padding: 0px 28px 0 14px!important;
+        padding: 0px 28px 0 14px !important;
     }
-    
+
     .navbar .navbar-brand img {
         width: 80px;
         height: 40px;
@@ -1499,8 +1661,9 @@ a.navbar-brand {
     a.nav-link {
         display: inline-block;
     }
+
     .home {
-        background-color: #af66cc;
+        background-color: #62b646;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -1508,16 +1671,19 @@ a.navbar-brand {
         overflow: hidden;
         top: 65px;
     }
+
     .home .bottom {
         position: absolute;
         bottom: 4%;
         text-align: center;
         left: 44%;
     }
+
     .home .text {
         text-align: center;
         padding: 50px 0 0 0px;
     }
+
     .home .text h2 {
         font-family: 'Lemonada', cursive;
         color: #fff;
@@ -1525,6 +1691,7 @@ a.navbar-brand {
         line-height: 45px;
         font-size: 28px;
     }
+
     .home .text .soon span {
         font-family: 'Lemonada', cursive;
         background: #fff;
@@ -1536,11 +1703,13 @@ a.navbar-brand {
         font-size: 13px;
         box-shadow: 3px 2px 5px 0px #4c4c4c;
     }
+
     .home .img-2 img {
         width: 100%;
         height: 100%;
         display: none;
     }
+
     .home .box-img {
         width: auto;
         height: auto;
@@ -1553,6 +1722,7 @@ a.navbar-brand {
         text-align: center;
         padding: 90px 0 10px;
     }
+
     .services .contant {
         padding: 10px 0;
     }
@@ -1578,6 +1748,7 @@ a.navbar-brand {
         background-color: #61B746;
         border-radius: 7px;
     }
+
     .about .text h1 {
         font-family: 'Tajawal', sans-serif;
         font-size: 40px;
@@ -1599,10 +1770,12 @@ a.navbar-brand {
         background-color: #fff;
         border-radius: 7px;
     }
+
     .services .box {
         margin: 20px 6px 10px;
         width: auto;
     }
+
     .services .box .img img {
         width: 50px;
         height: 50px;
@@ -1611,42 +1784,48 @@ a.navbar-brand {
         left: 22%;
         bottom: 25%;
     }
-.services .box .img {
-    width: 90px;
-    height: 92px;
-    overflow: hidden;
-    margin: 0 auto;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 1px solid #61b746;
-    position: relative;
-}
-.services .box .title h3 {
-    color: #61b746;
-    font-weight: bold;
-    text-align: center;
-    transition: 0.4s all;
-    font-size: 15px;
-}
-.services .box .title p {
-    color: #61b746;
-    font-weight: 400;
-    text-align: center;
-    transition: 0.4s all;
-}
-.services .box-r {
-    margin: 20px auto 10px !important;
-    width: 215px !important;
-}
+
+    .services .box .img {
+        width: 90px;
+        height: 92px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: #ffffff;
+        border: 1px solid #61b746;
+        position: relative;
+    }
+
+    .services .box .title h3 {
+        color: #61b746;
+        font-weight: bold;
+        text-align: center;
+        transition: 0.4s all;
+        font-size: 15px;
+    }
+
+    .services .box .title p {
+        color: #61b746;
+        font-weight: 400;
+        text-align: center;
+        transition: 0.4s all;
+    }
+
+    .services .box-r {
+        margin: 20px auto 10px !important;
+        width: 215px !important;
+    }
+
     .about {
         padding: 10px 0 0;
-        background-color:#cea83b;
+        background-color: #74c659;
     }
 
     .about .text {
         text-align: center;
         padding: 10px 0;
     }
+
     .about .text p {
         font-family: 'Tajawal', sans-serif;
         text-align: center;
@@ -1656,6 +1835,7 @@ a.navbar-brand {
         padding: 15px 0;
         font-weight: 400;
     }
+
     .about .text-1 {
         font-family: 'two';
         margin: 10px 0;
@@ -1686,6 +1866,7 @@ a.navbar-brand {
     .contact {
         padding: 20px 0 0;
     }
+
     .contact .container {
         width: 80%;
     }
@@ -1720,16 +1901,20 @@ a.navbar-brand {
     .contact .button a {
         margin-bottom: 40px;
     }
+
     footer {
         text-align: right;
         overflow: hidden;
     }
+
     .footer .container {
         width: 80%;
     }
+
     .footer .text .catgray {
         text-align: right;
     }
+
     .footer p {
         font-family: "two";
         color: #fff;
@@ -1737,6 +1922,7 @@ a.navbar-brand {
         font-size: 15px;
         margin-bottom: 0;
     }
+
     .footer .footer-tail p {
         text-align: center;
         font-family: 'Tajawal', sans-serif;
@@ -1747,15 +1933,22 @@ a.navbar-brand {
         margin: 0;
         padding: 8px 0 0;
     }
+
     .footer .text {
         padding: 0px 0;
         text-align: right;
-
     }
-    .footer .first {order:2}
 
-    .footer .second {order:1}
+    .footer .first {
+        order: 2
+    }
 
-    .footer .third {order:3}
+    .footer .second {
+        order: 1
+    }
+
+    .footer .third {
+        order: 3
+    }
 
 }
