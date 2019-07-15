@@ -1004,7 +1004,7 @@ a.navbar-brand {
 
     .home .text {
         text-align: center;
-        padding: 75px 0 0 0px;
+        padding: 40px 0 0 0px;
     }
 
     ul.navbar-nav.ml-auto {
@@ -1059,14 +1059,16 @@ a.navbar-brand {
         height: 100%;
         display: none;
     }
-
-    .home .box-img {
-        width: auto;
-        height: auto;
-        overflow: hidden;
-        margin: 0 auto;
-        text-align: center;
-    }
+.home .box-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 185px;
+    left: 20%;
+}
 
     .services .text {
         text-align: center;
@@ -1321,6 +1323,25 @@ a.navbar-brand {
     }
 }
 @media (min-width: 375px) and (max-width: 424px) {
+    .home {
+        display: none !important;
+    }
+    .mobile-home {
+        display: block;
+        background: #62b646;
+        position: relative;
+        top: 70px;
+        overflow: hidden;
+    }
+    .mobile-home .img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .mobile-home .img img {
+        width: 100%;
+        height: 100%;
+    }
     .navbar {
         position: fixed;
         z-index: 999;
@@ -1638,6 +1659,25 @@ a.navbar-brand {
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+    .home {
+        display: none !important;
+    }
+    .mobile-home {
+        display: block;
+        background: #62b646;
+        position: relative;
+        top: 70px;
+        overflow: hidden;
+    }
+    .mobile-home .img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .mobile-home .img img {
+        width: 100%;
+        height: 100%;
+    }
     .navbar {
         position: fixed;
         z-index: 999;
