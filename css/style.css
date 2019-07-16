@@ -737,7 +737,7 @@ a.navbar-brand {
 
     .navbar .navbar-brand img {
         width: 85px;
-        height: 65px;
+        height: 43px;
     }
 
     .home {
@@ -1007,10 +1007,25 @@ a.navbar-brand {
         padding: 40px 0 0 0px;
     }
 
+   
     ul.navbar-nav.ml-auto {
         background: #fff;
-        padding: 15px 0;
+        padding: 0px 0;
         text-align: right;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom: 2px solid transparent;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        color: #5b5b5b;
+        font-family: 'Tajawal', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
     }
 
     a.nav-link {
@@ -1356,10 +1371,25 @@ a.navbar-brand {
         height: 40px;
     }
 
+   
     ul.navbar-nav.ml-auto {
         background: #fff;
-        padding: 15px 0;
+        padding: 0px 0;
         text-align: right;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom: 2px solid transparent;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        color: #5b5b5b;
+        font-family: 'Tajawal', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
     }
 
     a.nav-link {
@@ -1694,8 +1724,22 @@ a.navbar-brand {
 
     ul.navbar-nav.ml-auto {
         background: #fff;
-        padding: 15px 0;
+        padding: 0px 0;
         text-align: right;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom: 2px solid transparent;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        color: #5b5b5b;
+        font-family: 'Tajawal', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
     }
 
     a.nav-link {
